@@ -6,23 +6,134 @@
 }
 @font-face {
     font-family: OpenSansLight;
-    src: url(../assets/fonts/OpenSansLight.ttf);
+    src: url(../assets/fonts/OpenSansLight.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: OpenSansRegular;
-    src: url(../assets/fonts/OpenSansRegular.ttf);
+    src: url(../assets/fonts/OpenSansRegular.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
-    font-family: ;
-    src: url(../assets/fonts/OswaldRegular.ttf);
+    font-family: OswaldRegular;
+    src: url(../assets/fonts/OswaldRegular.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: TitilliumWebSemiBold;
-    src: url(../assets/fonts/TitilliumWebSemiBold.ttf);
+    src: url(../assets/fonts/TitilliumWebSemiBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: OswaldExtraLight;
+    src: url(../assets/fonts/OswaldExtraLight.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.first__container{
+    position: relative;
+    width: 1920px;
+    height: 800px;
+    background-image: url(../assets/images/background.png);
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    width: 1920px;
+    height: 80px;
+    background-color: rgba(0, 91, 193, 0.6);
+    align-items: center;
+}
+.logo__and__text{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    margin-left: 40px;
+    align-items: center;
+    transition: all .3s ease;
+}
+.logo__and__text:hover{
+    transform: scale(1.1);
+}
+.logo__text{
+    font-family: TitilliumWebSemiBold;
+    font-size: 24px;
+    color: white;
+    width: 75px;
+    line-height: 120%;
+    text-align: center;
+}
+.menu__header{
+    margin-left:555px;
+}
+.menu__list{
+    display: flex;
+    list-style-type: none;
+    width: 454px;
+    justify-content: space-between;
+}
+.menu__link{
+    text-decoration: none;
+    color: white;
+}
+.menu__item{
+    font-family: OpenSansSemiBold;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+.menu__item:hover{
+    transform: scale(1.1);
+}
+.first__block{
+    margin: 0 auto;
+    width: 1110px;
+    height: 720px;
+}
+.rectangle{
+    width: 444px;
+    height: 720px;
+    background-color: rgba(0, 91, 193, 0.6);
+}
+.information{
+    position: absolute;
+    width: 600px;
+    height: 142px;
+    top: 285px;
+    left: 595px;
+}
+.text__name{
+    font-family: OswaldRegular;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 1%;
+}
+.text__information{
+    font-family: OpenSansRegular;
+    font-size: 16px;
+    width: 445px;
+    color: white;
+    margin-top: 40px;
+}
+.button__information{
+    width: 160px;
+    height: 51px;
+    border: 2px solid white;
+    background: none;
+    font-family: OpenSansSemiBold;
+    font-size: 16px;
+    color: white;
+    margin-top: 40px;
+    transition: all .3s ease;
+}
+.button__information:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
