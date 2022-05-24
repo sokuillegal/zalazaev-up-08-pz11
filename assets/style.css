@@ -92,7 +92,7 @@
 .menu__item:hover{
     transform: scale(1.1);
 }
-.first__block{
+.first__page{
     margin: 0 auto;
     width: 1110px;
     height: 720px;
@@ -136,4 +136,84 @@
 .button__information:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+.main{
+    position: relative;
+    margin: 0 auto;
+    width: 1920px;
+    height: 2554px;
+}
+.first__block{
+    position: absolute;
+    width: 1110px;
+    height: 520px;
+    top: 150px;
+    left: 405px;
+}
+.head__slider{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title__name{
+    font-family: OswaldRegular;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.arrows{
+    display: flex;
+}
+.rectangle__arrow{
+    display: flex;
+    border: 2px solid #005BC1;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease;
+}
+.rectangle__arrow:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.images{
+    position: relative;
+}
+.for__image{
+    width: 540px;
+    height: 400px;
+}
+.rectangle__for__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 255px;
+    left: 255px;
+    width: 250px;
+    height: 110px;
+    background-color: white;
+}
+.text__in__rectangle{
+    width: 200px;
+    height: 70px;
+}
+.title__rectangle__image{
+    font-family: OswaldRegular;
+    font-size: 18px;
+    color: #343434;
+}
+.description__rectangle__image{
+    font-family: OpenSansLight;
+    font-size: 14px;
+    color: #343434;
+    margin-top: 14px;
 }
