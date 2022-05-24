@@ -239,6 +239,10 @@
     display: flex;
     justify-content: space-between;
 }
+.link__title{
+    text-decoration: none;
+    color: #343434;
+}
 .title__second__block{
     color: #005BC1;
     border-bottom: 2px solid #005BC1 ;
